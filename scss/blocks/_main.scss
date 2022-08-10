@@ -1,0 +1,62 @@
+.main {
+    background-image: url(../img/bcg-img.png);
+    height: 716px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+.main__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 580px;
+    text-align: center;
+    margin:0 0 71px 0 ;
+}
+.main__header {
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    color: $white;
+}
+.main__text {
+    color: $gray-color;
+}
+.main__text:first-child {
+    text-transform: uppercase;
+}
+.main__text:last-child {
+    margin: 18px 0 0 0;
+}
+.main__info {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+}
+.main__info-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: $white;
+}
+.main__info-text:first-child::before {
+    content: url(../img/shot.svg);
+    margin: 0 6px 0 16px;
+}
+.main__info-text:nth-child(2)::before {
+    content: url(../img/obj.svg);
+    margin: 0 6px 0 16px;
+}
+.main__info-text:nth-child(3)::before {
+    content: url(../img/iso.svg);
+    margin: 0 6px 0 16px;
+}
+.main__info-text:last-child::before {
+    content: url(../img/location.svg);
+    margin: 0 6px 0 16px;
+}

@@ -1,0 +1,14 @@
+.nav {
+    color: $white;
+    display: flex;
+    justify-content: space-between;
+}
+.nav__link {
+    padding: 0 0 0 32px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+.nav__link:nth-child(2) {
+    padding: 0 0 0 56px;
+}

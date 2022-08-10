@@ -1,0 +1,44 @@
+.abilities {
+    background-color: $black;
+    width: 100%;
+    padding: 0 0 100px 0;
+}
+.abilities__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+.abilities__cards-card {
+    width: 576px;
+    height: 600px;
+    position: relative;
+}
+.abilities__cards-header {
+    position: absolute;
+    z-index: 1;
+    bottom: 139px;
+    left: 30px;
+    color: $white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.abilities__cards-text {
+    position: absolute;
+    z-index: 1;
+    left: 30px;
+    bottom: 69px;
+    width: 501px;
+    color: $gray-color;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.header-card {
+    bottom: 189px;
+}
+.text-card {
+    bottom: 89px;
+}

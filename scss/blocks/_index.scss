@@ -1,0 +1,22 @@
+.index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $black;
+    text-align: center;
+}
+.index__header {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: $white;
+    margin: 113px 0 0 0;
+}
+.index__text {
+    color: $gray-color;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    margin: 15px 0 42px 0;
+}
